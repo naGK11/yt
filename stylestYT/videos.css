@@ -1,0 +1,46 @@
+.video-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 8px;
+    row-gap: 16px;
+    padding: 20px;
+}
+.video-preview{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    max-width: 300px;
+    padding: 4px;
+}
+
+.thm-picture{
+    width: 100%;
+}
+.nd-block{
+    display: grid;
+    grid-template-columns: 48px 1fr;
+}
+
+.ch-img{
+    width: 36px;
+    height: 36px;
+    border-radius: 18px;
+    margin-top: 12px;
+}
+.title{
+    margin-top: 12px;
+    margin-bottom: 0px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+}
+.chn-name{
+    font-size: 12px;
+    color: #606060;
+    margin-bottom: 0;
+    margin-top: 8px;
+}
+.views-time{
+    font-size: 12px;
+    color: #606060;
+    margin-top: 0;
+}
